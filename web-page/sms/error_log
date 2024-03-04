@@ -1,0 +1,58 @@
+[27-Nov-2022 17:30:55 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The Messaging Service Sid ACe9c7f8cef08c23781eb4038a04bf19da is invalid. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 917666533914', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[22-Dec-2022 07:10:07 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 91 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 91', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[05-Jan-2023 16:58:46 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 91 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 91', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[08-Feb-2023 07:49:18 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 91 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 91', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[08-Feb-2023 07:50:00 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 91 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 91', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[08-Feb-2023 07:50:16 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 91 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 91', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[16-May-2023 05:46:30 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 917666533914 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 917666533914', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[16-May-2023 05:47:57 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 917666533914 is not a valid phone number. in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php:88
+Stack trace:
+#0 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php(223): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Rest/Api/V2010/Account/MessageList.php(72): Twilio\Version->create('POST', '/Accounts/ACe9c...', Array, Array)
+#2 /home/ashishvegan/techvegan.in/license-detector/sms/index.php(16): Twilio\Rest\Api\V2010\Account\MessageList->create(' 917666533914', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/ashishvegan/techvegan.in/license-detector/sms/Twilio/Version.php on line 88
+[16-May-2023 05:48:58 UTC] PHP Fatal error:  Cannot use Twilio\Rest\Client as Client because the name is already in use in /home/ashishvegan/techvegan.in/license-detector/sms/index.php on line 27
+[16-May-2023 06:03:29 UTC] PHP Warning:  Use of undefined constant Testing - assumed 'Testing' (this will throw an Error in a future version of PHP) in /home/ashishvegan/techvegan.in/license-detector/sms/index.php on line 20
